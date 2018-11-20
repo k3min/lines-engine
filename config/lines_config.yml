@@ -38,8 +38,6 @@ feed_favicon: "https://opoloo.github.io/lines-engine/assets/images/favicon.ico" 
 ### APP SPECIFICS ###
 #####################
 
-refresh_sitemap: false
-
 hero_images: ["lines_default_01.png", "lines_default_02.png", "lines_default_03.png"]
 
 articles_per_page: 10 # Pagination: How many articles should be desplayed per page?

@@ -40,7 +40,7 @@ module Lines
     #validate :one_image_selected
 
     # Callbacks
-    after_save :update_used_images, :refresh_sitemap
+    after_save :update_used_images
 
     # Model Scopes
     scope :published, -> { where(published: true).order("featured DESC, published_at DESC, created_at DESC") }
@@ -86,16 +86,6 @@ module Lines
       if !image_ids.nil?
         Picture.where(id: image_ids).each do |picture|
           picture.update_attributes(article_id: self.id)
-        end
-      end
-    end
-
-    # Refreshes the sitemap and pings the search engines
-    def refresh_sitemap
-      if self.published
-        if Rails.env == 'production' && ENV["CONFIG_FILE"]
-          SitemapGenerator::Interpreter.run(config_file: ENV["CONFIG_FILE"])
-          SitemapGenerator::Sitemap.ping_search_engines 
         end
       end
     end
