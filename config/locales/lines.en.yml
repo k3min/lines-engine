@@ -28,7 +28,6 @@ en:
       login: 'Login'
       logout: 'Logout'
       formating_help: 'Formatting Help'
-      about: 'About Lines'
 
     published_articles: 'Published articles'
     unpublished_articles: 'Unpublished articles'
