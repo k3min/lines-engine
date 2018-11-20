@@ -1,0 +1,8 @@
+nl:
+  views:
+    pagination:
+      first: "&laquo; Nieuwste"
+      last: "Oudste &raquo;"
+      previous: "&lsaquo; Nieuwer"
+      next: "Ouder &rsaquo;"
+      truncate: "&hellip;"

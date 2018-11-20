@@ -1,0 +1,64 @@
+nl:
+  lines:
+    buttons:
+      new_article: 'Nieuw artikel'
+      all_articles: 'Alle artikelen'
+      dashboard: 'Dashboard'
+      visit_blog: 'Bezoek blog'
+      edit_article: 'Bewerk artikel'
+      save_article: 'Bewaar artikel'
+      cancel: 'Annuleren'
+      edit: 'Bewerk'
+      preview: 'Voorbeeld'
+      all_authors: 'Alle auteurs'
+      new_author: 'Nieuwe auteur'
+      edit_author: 'Bewerk auteur'
+      save_author: 'Bewaar auteur'
+      author: 'Auteur'
+      publish: 'Publiceren'
+      unpublish: 'Publicatie ongedaan maken'
+      change_attachment: 'Bijlage wijzigen'
+      remove_attachment: 'Bijlage verwijderen'
+      attach_document: 'Document bijvoegen'
+      upload_image: 'Upload een afbeelding'
+      remove_hero_image: 'Artikel afbeelding verwijderen'
+      select_hero_image: 'Selecteer artikel afbeelding'
+      change: 'Wijziging'
+      insert_image: 'Voeg afbeelding in'
+      login: 'Log in'
+      logout: 'Uitloggen'
+      formating_help: 'Opmaak Help'
+      about: 'Over Lines'
+
+    published_articles: 'Gepubliceerde artikelen'
+    unpublished_articles: 'Niet-gepubliceerde artikelen'
+    confirm: 'Weet je het zeker?'
+    additional_info: 'Verdere informatie'
+    forgot_password: 'Wachtwoord vergeten?'
+    or: 'of'
+    go_back_to_blog: 'terug naar het blog.'
+    please_login: 'Meld u aan voor toegang tot het administratiegebied.'
+    login_error: 'E-mail of wachtwoord is ongeldig'
+    logged_in_as: 'Ingelogd als'
+
+  activerecord:
+    models:
+      lines/author:
+        one: 'Auteur'
+        other: 'Auteurs'
+      linens/article: 'Artikel'
+    attributes:
+      lines/author:
+        description: 'Beschrijving'
+        email: 'E-Mail'
+        gplus_profile: 'Website'
+      lines/article:
+        title: 'Titel'
+        sub_title: 'Subtitel'
+        teaser: 'Teaser'
+        content: 'Artikel inhoud'
+        gplus_url: 'Website'
+        author_ids: 'Auteurs'
+      lines/user:
+        email: 'E-Mail'
+        password: 'Wachtwoord'
