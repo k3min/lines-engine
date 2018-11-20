@@ -2,7 +2,7 @@
 # CarrierWave uploader for hero images.
 class HeroImageUploader < CarrierWave::Uploader::Base
 
-  include CarrierWave::RMagick
+  #include CarrierWave::RMagick
 
   # Include the Sprockets helpers for Rails 3.1+ asset pipeline compatibility:
   # include Sprockets::Helpers::RailsHelper
