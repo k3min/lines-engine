@@ -23,7 +23,7 @@ nl:
       upload_image: 'Upload een afbeelding'
       remove_hero_image: 'Artikel afbeelding verwijderen'
       select_hero_image: 'Selecteer artikel afbeelding'
-      change: 'Wijziging'
+      change: 'Verander'
       insert_image: 'Voeg afbeelding in'
       login: 'Log in'
       logout: 'Uitloggen'
