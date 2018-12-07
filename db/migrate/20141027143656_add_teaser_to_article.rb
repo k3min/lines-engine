@@ -1,4 +1,4 @@
-class AddTeaserToArticle < ActiveRecord::Migration[4.2]
+class AddTeaserToArticle < ActiveRecord::Migration
   def change
     add_column :lines_articles, :teaser, :text
   end
